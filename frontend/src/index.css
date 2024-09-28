@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main1 {
+  font-family: "Poppins", sans-serif, monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("https://images.hdqwalls.com/download/cyberpunk-2077-ride-4k-mr-1366x768.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main2 {
+  background: url("https://images.hdqwalls.com/download/beach-day-minimal-4k-l1-1366x768.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.blur1 {
+  /* From https://css.glass */
+  background: rgba(3, 3, 3, 0.13);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.4px);
+  -webkit-backdrop-filter: blur(3.4px);
+  border: 1px solid rgba(255, 255, 255, 0.62);
+}
+
+.blur2 {
+  /* From https://css.glass */
+  background: rgba(3, 3, 3, 0.13);
+  box-shadow: 0 4px 30px rgba(12, 11, 11, 0.1);
+  backdrop-filter: blur(4.4px);
+  -webkit-backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  border-radius: 16px;
+}
+
+.gross {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scroll-behavior: smooth;
+
+
+  
+
+}
